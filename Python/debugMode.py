@@ -23,3 +23,4 @@ mqttc.connect("192.168.1.136", 1883)
 
 if (args.board == 1):
 	mqttc.publish("myHome/board/room01/debug", str(args.debug))
+	# test
